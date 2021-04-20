@@ -8,7 +8,7 @@ namespace AuditBenchmarkAPI.Repository
 {
     public class BenchMarkRepo : IBenchMarckRepo
     {
-        static Dictionary<string,int> internalandsoxdict = new Dictionary<string,int>();
+        Dictionary<string,int> internalandsoxdict = new Dictionary<string,int>();
 
 
 

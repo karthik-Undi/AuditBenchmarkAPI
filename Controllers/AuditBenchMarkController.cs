@@ -22,7 +22,7 @@ namespace AuditBenchmarkAPI.Controllers
 
         static readonly log4net.ILog _log4net = log4net.LogManager.GetLogger(typeof(AuditBenchMarkController));
 
-        [HttpGet("GetInternalCount")]
+        [HttpGet]
         public IActionResult GetInternalAndSOXCount(string auditType)
         {
             _log4net.Info("Get Internal And Sox Count Method Called !!");
